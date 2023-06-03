@@ -16,7 +16,7 @@ const Login = () => {
   }
 
   return (
-    <form className="text-orange-900 border-orange-300 mt-10 md:mt-20 border login flex flex-col md:w-1/3 mx-auto w-[95%] my-auto bg-amber-200 rounded-lg justify-center p-5" onSubmit={handleSubmit}>
+    <form className="text-emerald-950 border-teal-300 mt-10 md:mt-20 border login flex flex-col md:w-1/3 mx-auto w-[95%] my-auto bg-emerald-200 rounded-lg justify-center p-5" onSubmit={handleSubmit}>
       <h3 className="self-center mb-5 text-2xl">Login to Get Started!</h3>
 
       <label className="mb-2">Your Email address</label>
@@ -34,7 +34,7 @@ const Login = () => {
         className="mb-4 h-10 rounded p-2"
       />
 
-      <button className="text-lg border-2 text-orange-900 rounded w-24 border-orange-600 self-center py-1" disabled={loading}>Login</button>
+      <button className="text-lg border-2 text-emerald-950 rounded w-24 border-emerald-600 self-center py-1" disabled={loading}>Login</button>
       {/* {error && <div className="error">{error}</div>} */}
     </form>
   );

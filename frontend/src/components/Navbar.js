@@ -10,8 +10,8 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-purple-300">
-      <div className="container py-3 px-10 bg-purple-300 w-[100%] flex justify-between">
+    <header className="bg-emerald-200">
+      <div className="container py-3 px-10 bg-emerald-200 w-[100%] flex justify-between">
         <Link to="/">
           <h1>TaskVault</h1>
         </Link>

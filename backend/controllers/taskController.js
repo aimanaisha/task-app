@@ -78,7 +78,7 @@ const updateSingle = async (req, res) => {
         return res.status(404).json({error: 'no such id'})
     }
 
-    const task = await Task.findOneAndUpdate({ _id: id }, {...req.body})
+    const task = await Task.findOneAndUpdate({ _id: id }, {...req.body}, {new: true})
 
     if(!task){
         return res.status(400).json({error: 'no such task'})

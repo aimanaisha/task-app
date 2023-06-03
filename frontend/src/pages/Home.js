@@ -31,7 +31,7 @@ const Home = () => {
 
 
     return (
-      <div className="home flex-col flex bg-purple-100">
+      <div className="home flex-col flex bg-teal-50">
         <div>
         <Form/>
         <div>
